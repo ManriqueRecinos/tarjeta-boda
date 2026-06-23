@@ -122,7 +122,7 @@ function App() {
         <div className="footer-section">
           <p className="footer-script">Agradeceríamos mostrar su afecto</p>
           <p className="footer-script">y cariño en sobre</p>
-          <p className="confirm-text">Confirmar asistencia: (2) personas</p>
+          <p className="confirm-text">Confirmar asistencia: (1) persona</p>
 
         </div>
 

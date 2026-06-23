@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Montserrat:wght@300;400;500;600&display=swap');
 
+@font-face {
+  font-family: 'Brittany';
+  src: url('/Brittany.otf') format('opentype'),
+       url('/Brittany.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* ===========================
    PALETTE
    Primary  : #b0c4dc  (dusty blue)
@@ -192,7 +201,7 @@ body {
 }
 
 .name-script {
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Brittany', 'Great Vibes', cursive;
   font-weight: 400;
   line-height: 1.05;
   background: linear-gradient(150deg, #1c2d3e 0%, #3d6a8e 50%, #1c2d3e 100%);
@@ -327,7 +336,7 @@ body {
 }
 
 .detail-label {
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Brittany', 'Great Vibes', cursive;
   font-size: clamp(1.2rem, 3.5vw, 1.5rem);
   color: #7a9ab8;
   line-height: 1;
@@ -425,7 +434,7 @@ body {
 }
 
 .footer-script {
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Brittany', 'Great Vibes', cursive;
   font-size: clamp(1.3rem, 4vw, 1.7rem);
   line-height: 1.45;
   background: linear-gradient(135deg, #1c2d3e, #3d6a8e);
